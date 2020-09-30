@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./App.scss";
+import styles from "./app.module.scss";
 
 function App() {
   console.log(styles);
-  return <div className="text green">Hello</div>;
+  return <div className={styles.text}>Hello</div>;
 }
 
 export default App;
